@@ -1,0 +1,14 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\bin\Debug\net8.0\Section11.EventsAndDelegates.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\bin\Debug\net8.0\Section11.EventsAndDelegates.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\bin\Debug\net8.0\Section11.EventsAndDelegates.runtimeconfig.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\bin\Debug\net8.0\Section11.EventsAndDelegates.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\bin\Debug\net8.0\Section11.EventsAndDelegates.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\refint\Section11.EventsAndDelegates.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\Section11.EventsAndDelegates.genruntimeconfig.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section11.EventsAndDelegates\obj\Debug\net8.0\ref\Section11.EventsAndDelegates.dll

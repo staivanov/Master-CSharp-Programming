@@ -1,0 +1,14 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\bin\Debug\net8.0\Section12.RegularExpressions.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\bin\Debug\net8.0\Section12.RegularExpressions.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\bin\Debug\net8.0\Section12.RegularExpressions.runtimeconfig.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\bin\Debug\net8.0\Section12.RegularExpressions.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\bin\Debug\net8.0\Section12.RegularExpressions.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\refint\Section12.RegularExpressions.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.genruntimeconfig.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\ref\Section12.RegularExpressions.dll
