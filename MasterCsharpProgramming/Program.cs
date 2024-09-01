@@ -15,7 +15,7 @@ namespace MasterCsharpProgramming
             Employee jax = new("Joe", 35, "Doctor", 12345);
             jax.DisplayPersonInfo();
             jax.DisplayEmployeeInfo();
-            
+
 
 
         }

@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}|WpfApp\\WpfApp.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\wpfzoomanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|solutionrelative:wpfzoomanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}|WpfApp\\WpfApp.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\wpfzoomanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|solutionrelative:wpfzoomanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "DockedHeight": 350,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFZooManager\\MainWindow.xaml.cs",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFZooManager\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T14:09:04.524Z",
+              "WhenOpened": "2024-08-29T14:57:03.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp\\MainWindow.xaml",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFZooManager\\MainWindow.xaml",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml",
+              "RelativeToolTip": "WPFZooManager\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-27T12:33:14.419Z",
+              "WhenOpened": "2024-08-29T14:48:13.01Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 293,
+          "DockedHeight": 210,
           "SelectedChildIndex": -1,
           "Children": [
             {

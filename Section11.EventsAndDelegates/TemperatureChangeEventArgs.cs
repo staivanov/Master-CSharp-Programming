@@ -2,9 +2,9 @@
 {
     //public delegate void TemperatureChangeHandler(string message);
 
-    public class TemperatureChangeEventArgs: EventArgs
+    public class TemperatureChangeEventArgs : EventArgs
     {
-        public int Temperature { get;}
+        public int Temperature { get; }
 
         public TemperatureChangeEventArgs(int temperature)
         {

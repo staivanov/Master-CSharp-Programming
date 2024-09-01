@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\WpfApp.csproj",
-      "projectName": "WpfApp",
-      "projectPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\WpfApp.csproj",
+      "projectUniqueName": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\Section13.WpfApp.csproj",
+      "projectName": "Section13.WpfApp",
+      "projectPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\Section13.WpfApp.csproj",
       "packagesPath": "C:\\Users\\sta_i\\.nuget\\packages\\",
       "outputPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WpfApp\\obj\\",
       "projectStyle": "PackageReference",

@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section10.Struct", "Section
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section11.EventsAndDelegates", "Section11.EventsAndDelegates\Section11.EventsAndDelegates.csproj", "{32B8FBE1-E6BD-4496-8907-A9BB78B24F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section12.RegularExpressions", "Section12.RegularExpressions\Section12.RegularExpressions.csproj", "{D39CCF61-B41A-4DB9-9FFD-A6BBB32C8D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section12.RegularExpressions", "Section12.RegularExpressions\Section12.RegularExpressions.csproj", "{D39CCF61-B41A-4DB9-9FFD-A6BBB32C8D6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section13.WpfApp", "WpfApp\Section13.WpfApp.csproj", "{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFZooManager", "WPFZooManager\WPFZooManager.csproj", "{3A205DA7-9BA1-49F9-A15C-54FC281DC866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD1A817-AA5E-4E28-A7CC-CD3F7C236E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

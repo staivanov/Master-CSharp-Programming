@@ -18,6 +18,8 @@ namespace WpfApp
             Grid.SetColumn(myButton, 4);
             Grid myGrid = (Grid)FindName("myGrid");
             myGrid.Children.Add(myButton);
+
+
         }
 
 

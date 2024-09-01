@@ -25,6 +25,6 @@
             double result = Math.Sqrt(pointsResult);
 
             return result;
-        }   
+        }
     }
 }

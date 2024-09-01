@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Console;
+﻿using static System.Console;
 
 namespace Section11.EventsAndDelegates
 {
@@ -13,7 +8,7 @@ namespace Section11.EventsAndDelegates
     {
 
 
-        public  void LogToConsole(string message)
+        public void LogToConsole(string message)
             => WriteLine($"Console log: {message}");
     }
 }
