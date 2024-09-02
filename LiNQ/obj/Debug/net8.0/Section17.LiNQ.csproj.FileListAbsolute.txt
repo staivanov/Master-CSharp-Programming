@@ -1,0 +1,15 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\bin\Debug\net8.0\Section17.LiNQ.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\bin\Debug\net8.0\Section17.LiNQ.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\bin\Debug\net8.0\Section17.LiNQ.runtimeconfig.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\bin\Debug\net8.0\Section17.LiNQ.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\bin\Debug\net8.0\Section17.LiNQ.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\refint\Section17.LiNQ.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\Section17.LiNQ.genruntimeconfig.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\LiNQ\obj\Debug\net8.0\ref\Section17.LiNQ.dll

@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section13.WpfApp", "WpfApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFZooManager", "WPFZooManager\WPFZooManager.csproj", "{3A205DA7-9BA1-49F9-A15C-54FC281DC866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section17.LiNQ", "LiNQ\Section17.LiNQ.csproj", "{0CDB36D4-D983-44E7-BA59-471E399CB334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A205DA7-9BA1-49F9-A15C-54FC281DC866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

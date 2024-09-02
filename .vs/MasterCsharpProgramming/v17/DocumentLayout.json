@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\wpfzoomanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|solutionrelative:wpfzoomanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\wpfzoomanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3A205DA7-9BA1-49F9-A15C-54FC281DC866}|WPFZooManager\\WPFZooManager.csproj|solutionrelative:wpfzoomanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\LiNQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 350,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,28 +57,24 @@
               "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPFZooManager\\MainWindow.xaml.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPFZooManager\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAMwCoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T14:57:03.771Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPFZooManager\\MainWindow.xaml",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\WPFZooManager\\MainWindow.xaml",
-              "RelativeToolTip": "WPFZooManager\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-29T14:48:13.01Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Program.cs",
+              "RelativeDocumentMoniker": "LiNQ\\Program.cs",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Program.cs",
+              "RelativeToolTip": "LiNQ\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:43:49.92Z",
               "EditorCaption": ""
             }
           ]
