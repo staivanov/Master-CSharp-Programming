@@ -1,16 +1,17 @@
-﻿using static System.Console;
+﻿using Section17.LiNQ;
+using static System.Console;
 
 namespace LiNQ
 {
     public class Program
     {
-        static void Main()
+        public static void Main()
         {
-            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            UniversityManager uniManager = new();
+            uniManager.MaleStudents();
+            uniManager.FemaleStudents();
 
-            OddPrinter(numbers);
         }
-
 
         private static void OddPrinter(int[] numbers)
         {

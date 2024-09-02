@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\LiNQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,9 +72,9 @@
               "RelativeDocumentMoniker": "LiNQ\\Program.cs",
               "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Program.cs",
               "RelativeToolTip": "LiNQ\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T12:43:49.92Z",
+              "WhenOpened": "2024-09-02T13:42:05.239Z",
               "EditorCaption": ""
             }
           ]

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\LiNQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\universitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|solutionrelative:linq\\universitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|solutionrelative:linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|solutionrelative:linq\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|solutionrelative:linq\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\linq\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDB36D4-D983-44E7-BA59-471E399CB334}|LiNQ\\Section17.LiNQ.csproj|solutionrelative:linq\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 350,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,15 +82,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\DataSeed.cs",
+              "RelativeDocumentMoniker": "LiNQ\\DataSeed.cs",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\DataSeed.cs",
+              "RelativeToolTip": "LiNQ\\DataSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:34:56.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UniversityManager.cs",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\UniversityManager.cs",
+              "RelativeDocumentMoniker": "LiNQ\\UniversityManager.cs",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\UniversityManager.cs",
+              "RelativeToolTip": "LiNQ\\UniversityManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:33:27.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "University.cs",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\University.cs",
+              "RelativeDocumentMoniker": "LiNQ\\University.cs",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\University.cs",
+              "RelativeToolTip": "LiNQ\\University.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:33:25.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Student.cs",
+              "RelativeDocumentMoniker": "LiNQ\\Student.cs",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Student.cs",
+              "RelativeToolTip": "LiNQ\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:33:15.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Program.cs",
               "RelativeDocumentMoniker": "LiNQ\\Program.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Program.cs*",
-              "RelativeToolTip": "LiNQ\\Program.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\LiNQ\\Program.cs",
+              "RelativeToolTip": "LiNQ\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T12:43:49.92Z",
+              "WhenOpened": "2024-09-02T13:32:26.144Z",
               "EditorCaption": ""
             }
           ]
