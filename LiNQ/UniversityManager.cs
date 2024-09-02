@@ -84,5 +84,26 @@ namespace Section17.LiNQ
                 student.Print();
             }
         }
+
+        public void StudentAndUniversityNameCollection()
+        {
+            var newCollection = from student in _students
+                                join university in _universities
+                                on student.Id equals university.Id
+                                orderby student.Name
+                                select new
+                                {
+                                    StudentName = student.Name,
+                                    UniversityName = university.Name
+                                };
+
+            WriteLine("New Collection");
+
+            foreach (var col in newCollection)
+            {
+                string message = $"Student {col.StudentName} at University {col.UniversityName}";
+                WriteLine(message);
+            }
+        }
     }
 }

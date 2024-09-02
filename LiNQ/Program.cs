@@ -10,8 +10,9 @@ namespace LiNQ
             UniversityManager uniManager = new();
             //uniManager.MaleStudents();
             //uniManager.FemaleStudents();
-            uniManager.SortStudentByAge();
-            uniManager.AllStudentsFromBeijingTech();
+            //uniManager.SortStudentByAge();
+            //uniManager.AllStudentsFromBeijingTech();
+            uniManager.StudentAndUniversityNameCollection();
         }
 
         private static void OddPrinter(int[] numbers)
