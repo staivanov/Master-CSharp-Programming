@@ -8,9 +8,10 @@ namespace LiNQ
         public static void Main()
         {
             UniversityManager uniManager = new();
-            uniManager.MaleStudents();
-            uniManager.FemaleStudents();
-
+            //uniManager.MaleStudents();
+            //uniManager.FemaleStudents();
+            uniManager.SortStudentByAge();
+            uniManager.AllStudentsFromBeijingTech();
         }
 
         private static void OddPrinter(int[] numbers)
