@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Section17.LiNQwithXML/1.0.0": {
+        "dependencies": {
+          "Section17.LiNQ": "1.0.0"
+        },
+        "runtime": {
+          "Section17.LiNQwithXML.dll": {}
+        }
+      },
+      "Section17.LiNQ/1.0.0": {
+        "runtime": {
+          "Section17.LiNQ.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Section17.LiNQwithXML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Section17.LiNQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
