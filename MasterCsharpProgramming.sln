@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section13.WpfApp", "WpfApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFZooManager", "WPFZooManager\WPFZooManager.csproj", "{3A205DA7-9BA1-49F9-A15C-54FC281DC866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section17.LiNQ", "LiNQ\Section17.LiNQ.csproj", "{0CDB36D4-D983-44E7-BA59-471E399CB334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section17.LiNQ", "LiNQ\Section17.LiNQ.csproj", "{0CDB36D4-D983-44E7-BA59-471E399CB334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Section17.LiNQwithXML", "Section17.LiNQwithXML\Section17.LiNQwithXML.csproj", "{8C723725-B64A-4007-ABA5-7E212525A6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiNQToSQL", "LinqToSql\LiNQToSQL.csproj", "{0D1C928A-3730-40AB-A985-388B1EEAA784}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CDB36D4-D983-44E7-BA59-471E399CB334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C723725-B64A-4007-ABA5-7E212525A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C723725-B64A-4007-ABA5-7E212525A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C723725-B64A-4007-ABA5-7E212525A6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C723725-B64A-4007-ABA5-7E212525A6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1C928A-3730-40AB-A985-388B1EEAA784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1C928A-3730-40AB-A985-388B1EEAA784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1C928A-3730-40AB-A985-388B1EEAA784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1C928A-3730-40AB-A985-388B1EEAA784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

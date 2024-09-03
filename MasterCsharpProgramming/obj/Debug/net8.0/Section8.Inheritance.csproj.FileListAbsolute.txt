@@ -19,3 +19,4 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\MasterCsharpProg
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\MasterCsharpProgramming\obj\Debug\net8.0\Section8.Inheritance.pdb
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\MasterCsharpProgramming\obj\Debug\net8.0\Section8.Inheritance.genruntimeconfig.cache
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\MasterCsharpProgramming\obj\Debug\net8.0\ref\Section8.Inheritance.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\MasterCsharpProgramming\obj\Debug\net8.0\Section8.Inheritance.sourcelink.json

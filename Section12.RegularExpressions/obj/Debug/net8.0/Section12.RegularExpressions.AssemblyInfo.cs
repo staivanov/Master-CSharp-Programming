@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Section12.RegularExpressions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f47d52f528bb677c02502280cf4e6f1060e16328")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a9a67467d32cdf1664e739862bedac65ef4314")]
 [assembly: System.Reflection.AssemblyProductAttribute("Section12.RegularExpressions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Section12.RegularExpressions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

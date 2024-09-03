@@ -18,3 +18,4 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WpfApp\obj\Debug
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WpfApp\obj\Debug\net8.0-windows\Section13.WpfApp.pdb
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WpfApp\obj\Debug\net8.0-windows\Section13.WpfApp.genruntimeconfig.cache
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WpfApp\obj\Debug\net8.0-windows\ref\Section13.WpfApp.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WpfApp\obj\Debug\net8.0-windows\Section13.WpfApp.sourcelink.json

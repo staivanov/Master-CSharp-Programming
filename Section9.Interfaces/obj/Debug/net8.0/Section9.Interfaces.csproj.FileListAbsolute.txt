@@ -12,3 +12,4 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section9.Interfa
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section9.Interfaces\obj\Debug\net8.0\Section9.Interfaces.pdb
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section9.Interfaces\obj\Debug\net8.0\Section9.Interfaces.genruntimeconfig.cache
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section9.Interfaces\obj\Debug\net8.0\ref\Section9.Interfaces.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section9.Interfaces\obj\Debug\net8.0\Section9.Interfaces.sourcelink.json

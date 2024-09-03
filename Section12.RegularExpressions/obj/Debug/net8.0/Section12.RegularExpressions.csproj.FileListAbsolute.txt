@@ -12,3 +12,4 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.Regula
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.pdb
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.genruntimeconfig.cache
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\ref\Section12.RegularExpressions.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section12.RegularExpressions\obj\Debug\net8.0\Section12.RegularExpressions.sourcelink.json

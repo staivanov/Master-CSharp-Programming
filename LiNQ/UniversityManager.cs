@@ -105,5 +105,9 @@ namespace Section17.LiNQ
                 WriteLine(message);
             }
         }
+
+
+
+
     }
 }
