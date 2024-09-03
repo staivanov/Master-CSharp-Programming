@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Configuration;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Section10.LinqToSql
 {
@@ -20,9 +8,14 @@ namespace Section10.LinqToSql
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly LinqToSqlDataClassesDataContext _dataContext;
+
         public MainWindow()
         {
             InitializeComponent();
+            string connectionStringName = "Section10.LinqToSql.Properties.Settings.ZooDbConnectionString";
+            string connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
+            _dataContext = new LinqToSqlDataClassesDataContext(connectionString);
         }
     }
 }
