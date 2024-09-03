@@ -11,24 +11,20 @@ namespace Section10.LinqToSql
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly LinqToSqlDataClassesDataContext _dataContext;
+        private LinqToSqlDataClassesDataContext _dataContext;
 
         public MainWindow()
         {
             InitializeComponent();
+            GetConnectionLinqToSqlData();
+        
+        }
+
+        private void GetConnectionLinqToSqlData()
+        {
             string connectionStringName = "Section10.LinqToSql.Properties.Settings.ZooDbConnectionString";
             string connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
             _dataContext = new LinqToSqlDataClassesDataContext(connectionString);
-
-            Student vasko = new Student()
-            {
-                Name = "Vasko",
-                Gender = "Male"
-            };
-            string oxford = "University of Oxford";
-
-            //InsertStudent(vasko, oxford);
-            DisplayStudentsOnDataTable();
         }
 
 
