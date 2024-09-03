@@ -16,6 +16,26 @@ namespace Section10.LinqToSql
             string connectionStringName = "Section10.LinqToSql.Properties.Settings.ZooDbConnectionString";
             string connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
             _dataContext = new LinqToSqlDataClassesDataContext(connectionString);
+
+            InsertUniversity(new University() { Name = "Yale" });
+            DisplayOnDataTable();
+        }
+
+
+        private void InsertUniversity(University university)
+        {
+            University newUni = new University()
+            {
+                Name = university.Name
+            };
+
+            _dataContext.Universities.InsertOnSubmit(newUni);
+            _dataContext.SubmitChanges();
+        }
+
+        private void DisplayOnDataTable()
+        {
+            MainDataGrid.ItemsSource = _dataContext.Universities;
         }
     }
 }
