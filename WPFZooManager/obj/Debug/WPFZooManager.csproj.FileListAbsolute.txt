@@ -13,3 +13,9 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\ob
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\obj\Debug\WPFZooManager.csproj.CoreCompileInputs.cache
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\obj\Debug\WPFZooManager.exe
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\obj\Debug\WPFZooManager.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\bin\Debug\EntityFramework.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\bin\Debug\EntityFramework.SqlServer.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\bin\Debug\EntityFramework.xml
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\bin\Debug\EntityFramework.SqlServer.xml
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\obj\Debug\WPFZooManager_Content.g.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\WPFZooManager\obj\Debug\WPFZooMa.470C6A7E.Up2Date

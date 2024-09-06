@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ffadfb12e5414696829864d653b7743c" Name="Diagram1">
+        <EntityTypeShape EntityType="ZooDbModel.Animal" Width="1.5" PointX="2.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooDbModel.Lecture" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooDbModel.Student" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooDbModel.StudentLecture" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooDbModel.University" Width="1.5" PointX="1.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooDbModel.Zoo" Width="1.5" PointX="2.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooDbModel.ZooAnimal" Width="1.5" PointX="5" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="ZooDbModel.AnimalFK" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.FK__StudentLe__Lectu__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.FK__StudentLe__Lectu__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.FK__StudentLe__Lectu__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.FK__StudentLe__Stude__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.StudentFK" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.UniversityFK" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooDbModel.ZooFK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ZooDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Animal">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Lecture">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UniversityId" Type="int" Nullable="false" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="StudentLecture">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StudentId" Type="int" Nullable="false" />
+          <Property Name="LectureId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="University">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Zoo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Location" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ZooAnimal">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ZooId" Type="int" Nullable="false" />
+          <Property Name="AnimalId" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="AnimalFK">
+          <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+          <End Role="ZooAnimal" Type="Self.ZooAnimal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Animal">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ZooAnimal">
+              <PropertyRef Name="AnimalId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Lectu__5629CD9C">
+          <End Role="Lecture" Type="Self.Lecture" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lecture">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="LectureId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Lectu__571DF1D5">
+          <End Role="Lecture" Type="Self.Lecture" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lecture">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="LectureId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Lectu__5812160E">
+          <End Role="Lecture" Type="Self.Lecture" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lecture">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="LectureId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Stude__5535A963">
+          <End Role="Student" Type="Self.Student" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StudentFK">
+          <End Role="Student" Type="Self.Student" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UniversityFK">
+          <End Role="University" Type="Self.University" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Student" Type="Self.Student" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="University">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Student">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ZooFK">
+          <End Role="Zoo" Type="Self.Zoo" Multiplicity="1" />
+          <End Role="ZooAnimal" Type="Self.ZooAnimal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Zoo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ZooAnimal">
+              <PropertyRef Name="ZooId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ZooDbModelStoreContainer">
+          <EntitySet Name="Animal" EntityType="Self.Animal" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Lecture" EntityType="Self.Lecture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StudentLecture" EntityType="Self.StudentLecture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="University" EntityType="Self.University" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Zoo" EntityType="Self.Zoo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ZooAnimal" EntityType="Self.ZooAnimal" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="AnimalFK" Association="Self.AnimalFK">
+            <End Role="Animal" EntitySet="Animal" />
+            <End Role="ZooAnimal" EntitySet="ZooAnimal" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Lectu__5629CD9C" Association="Self.FK__StudentLe__Lectu__5629CD9C">
+            <End Role="Lecture" EntitySet="Lecture" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Lectu__571DF1D5" Association="Self.FK__StudentLe__Lectu__571DF1D5">
+            <End Role="Lecture" EntitySet="Lecture" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Lectu__5812160E" Association="Self.FK__StudentLe__Lectu__5812160E">
+            <End Role="Lecture" EntitySet="Lecture" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Stude__5535A963" Association="Self.FK__StudentLe__Stude__5535A963">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="StudentFK" Association="Self.StudentFK">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="UniversityFK" Association="Self.UniversityFK">
+            <End Role="University" EntitySet="University" />
+            <End Role="Student" EntitySet="Student" />
+          </AssociationSet>
+          <AssociationSet Name="ZooFK" Association="Self.ZooFK">
+            <End Role="Zoo" EntitySet="Zoo" />
+            <End Role="ZooAnimal" EntitySet="ZooAnimal" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ZooDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Animal">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ZooAnimal" Relationship="Self.AnimalFK" FromRole="Animal" ToRole="ZooAnimal" />
+        </EntityType>
+        <EntityType Name="Lecture">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="StudentLecture" Relationship="Self.FK__StudentLe__Lectu__5629CD9C" FromRole="Lecture" ToRole="StudentLecture" />
+          <NavigationProperty Name="StudentLecture1" Relationship="Self.FK__StudentLe__Lectu__571DF1D5" FromRole="Lecture" ToRole="StudentLecture" />
+          <NavigationProperty Name="StudentLecture2" Relationship="Self.FK__StudentLe__Lectu__5812160E" FromRole="Lecture" ToRole="StudentLecture" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UniversityId" Type="Int32" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="StudentLecture" Relationship="Self.FK__StudentLe__Stude__5535A963" FromRole="Student" ToRole="StudentLecture" />
+          <NavigationProperty Name="StudentLecture1" Relationship="Self.StudentFK" FromRole="Student" ToRole="StudentLecture" />
+          <NavigationProperty Name="University" Relationship="Self.UniversityFK" FromRole="Student" ToRole="University" />
+        </EntityType>
+        <EntityType Name="StudentLecture">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="Int32" Nullable="false" />
+          <Property Name="LectureId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Lecture" Relationship="Self.FK__StudentLe__Lectu__5629CD9C" FromRole="StudentLecture" ToRole="Lecture" />
+          <NavigationProperty Name="Lecture1" Relationship="Self.FK__StudentLe__Lectu__571DF1D5" FromRole="StudentLecture" ToRole="Lecture" />
+          <NavigationProperty Name="Lecture2" Relationship="Self.FK__StudentLe__Lectu__5812160E" FromRole="StudentLecture" ToRole="Lecture" />
+          <NavigationProperty Name="Student" Relationship="Self.FK__StudentLe__Stude__5535A963" FromRole="StudentLecture" ToRole="Student" />
+          <NavigationProperty Name="Student1" Relationship="Self.StudentFK" FromRole="StudentLecture" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="University">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Student" Relationship="Self.UniversityFK" FromRole="University" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Zoo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ZooAnimal" Relationship="Self.ZooFK" FromRole="Zoo" ToRole="ZooAnimal" />
+        </EntityType>
+        <EntityType Name="ZooAnimal">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ZooId" Type="Int32" Nullable="false" />
+          <Property Name="AnimalId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Animal" Relationship="Self.AnimalFK" FromRole="ZooAnimal" ToRole="Animal" />
+          <NavigationProperty Name="Zoo" Relationship="Self.ZooFK" FromRole="ZooAnimal" ToRole="Zoo" />
+        </EntityType>
+        <Association Name="AnimalFK">
+          <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+          <End Role="ZooAnimal" Type="Self.ZooAnimal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Animal">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ZooAnimal">
+              <PropertyRef Name="AnimalId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Lectu__5629CD9C">
+          <End Role="Lecture" Type="Self.Lecture" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lecture">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="LectureId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Lectu__571DF1D5">
+          <End Role="Lecture" Type="Self.Lecture" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lecture">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="LectureId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Lectu__5812160E">
+          <End Role="Lecture" Type="Self.Lecture" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Lecture">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="LectureId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__StudentLe__Stude__5535A963">
+          <End Role="Student" Type="Self.Student" Multiplicity="1" />
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StudentFK">
+          <End Role="Student" Type="Self.Student" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="StudentLecture" Type="Self.StudentLecture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentLecture">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UniversityFK">
+          <End Role="University" Type="Self.University" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Student" Type="Self.Student" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="University">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Student">
+              <PropertyRef Name="UniversityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ZooFK">
+          <End Role="Zoo" Type="Self.Zoo" Multiplicity="1" />
+          <End Role="ZooAnimal" Type="Self.ZooAnimal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Zoo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ZooAnimal">
+              <PropertyRef Name="ZooId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ZooDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Animal" EntityType="Self.Animal" />
+          <EntitySet Name="Lecture" EntityType="Self.Lecture" />
+          <EntitySet Name="Student" EntityType="Self.Student" />
+          <EntitySet Name="StudentLecture" EntityType="Self.StudentLecture" />
+          <EntitySet Name="University" EntityType="Self.University" />
+          <EntitySet Name="Zoo" EntityType="Self.Zoo" />
+          <EntitySet Name="ZooAnimal" EntityType="Self.ZooAnimal" />
+          <AssociationSet Name="AnimalFK" Association="Self.AnimalFK">
+            <End Role="Animal" EntitySet="Animal" />
+            <End Role="ZooAnimal" EntitySet="ZooAnimal" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Lectu__5629CD9C" Association="Self.FK__StudentLe__Lectu__5629CD9C">
+            <End Role="Lecture" EntitySet="Lecture" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Lectu__571DF1D5" Association="Self.FK__StudentLe__Lectu__571DF1D5">
+            <End Role="Lecture" EntitySet="Lecture" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Lectu__5812160E" Association="Self.FK__StudentLe__Lectu__5812160E">
+            <End Role="Lecture" EntitySet="Lecture" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="FK__StudentLe__Stude__5535A963" Association="Self.FK__StudentLe__Stude__5535A963">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="StudentFK" Association="Self.StudentFK">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="StudentLecture" EntitySet="StudentLecture" />
+          </AssociationSet>
+          <AssociationSet Name="UniversityFK" Association="Self.UniversityFK">
+            <End Role="University" EntitySet="University" />
+            <End Role="Student" EntitySet="Student" />
+          </AssociationSet>
+          <AssociationSet Name="ZooFK" Association="Self.ZooFK">
+            <End Role="Zoo" EntitySet="Zoo" />
+            <End Role="ZooAnimal" EntitySet="ZooAnimal" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ZooDbModelStoreContainer" CdmEntityContainer="ZooDbEntities">
+          <EntitySetMapping Name="Animal">
+            <EntityTypeMapping TypeName="ZooDbModel.Animal">
+              <MappingFragment StoreEntitySet="Animal">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Lecture">
+            <EntityTypeMapping TypeName="ZooDbModel.Lecture">
+              <MappingFragment StoreEntitySet="Lecture">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Student">
+            <EntityTypeMapping TypeName="ZooDbModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="UniversityId" ColumnName="UniversityId" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentLecture">
+            <EntityTypeMapping TypeName="ZooDbModel.StudentLecture">
+              <MappingFragment StoreEntitySet="StudentLecture">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="LectureId" ColumnName="LectureId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="University">
+            <EntityTypeMapping TypeName="ZooDbModel.University">
+              <MappingFragment StoreEntitySet="University">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Zoo">
+            <EntityTypeMapping TypeName="ZooDbModel.Zoo">
+              <MappingFragment StoreEntitySet="Zoo">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ZooAnimal">
+            <EntityTypeMapping TypeName="ZooDbModel.ZooAnimal">
+              <MappingFragment StoreEntitySet="ZooAnimal">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ZooId" ColumnName="ZooId" />
+                <ScalarProperty Name="AnimalId" ColumnName="AnimalId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
