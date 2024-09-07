@@ -1,27 +1,16 @@
-﻿using static System.Console;
+﻿using Section21.Generics.Interfaces;
 
 namespace Section21.Generics
 {
-    public class Box<T>
+    public class Box<T> where T : IEntity
     {
-        private T _content;
+        private List<T> values = new List<T>();
 
-        public Box(T initialValue)
-        {
-            _content = initialValue;
-        }
+        public void Add(T entity)
+            => values.Add(entity);
 
 
-        public T GetContent()
-        {
-            return _content;
-        }
 
 
-        public void UpdateContent(T newContent)
-        {
-            _content = newContent;
-            WriteLine($"Updated content to {_content}");
-        }
     }
 }

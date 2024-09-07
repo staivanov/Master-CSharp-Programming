@@ -1,0 +1,15 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\bin\Debug\net6.0\Section21.Generics.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\bin\Debug\net6.0\Section21.Generics.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\bin\Debug\net6.0\Section21.Generics.runtimeconfig.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\bin\Debug\net6.0\Section21.Generics.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\bin\Debug\net6.0\Section21.Generics.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\refint\Section21.Generics.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\Section21.Generics.genruntimeconfig.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section21.Generics\Section21.Generics\obj\Debug\net6.0\ref\Section21.Generics.dll

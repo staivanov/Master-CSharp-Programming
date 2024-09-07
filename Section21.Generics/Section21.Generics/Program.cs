@@ -1,20 +1,22 @@
-﻿using static System.Console;
-
-namespace Section21.Generics
+﻿namespace Section21.Generics
 {
     public class Program
     {
         public static void Main()
         {
-            Box<string> boxStr = new Box<string>("Hello World");
-            boxStr.UpdateContent("Teaching C# is fun");
-            WriteLine(boxStr.GetContent());
+            Repository<Product> repository = new Repository<Product>();
+            Product product = new();
+            repository.Add(product);
 
+            Action action = () => { Console.WriteLine("Hello World"); };
+            action();
 
+            Func<string> getName = () =>
+            {
+                return "Jax";
+            };
 
-
-
-            
+            string? myName = getName();
         }
     }
 }
