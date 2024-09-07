@@ -1,0 +1,15 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\bin\Debug\net6.0\Section20.CleanCode.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\bin\Debug\net6.0\Section20.CleanCode.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\bin\Debug\net6.0\Section20.CleanCode.runtimeconfig.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\bin\Debug\net6.0\Section20.CleanCode.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\bin\Debug\net6.0\Section20.CleanCode.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\refint\Section20.CleanCode.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\Section20.CleanCode.genruntimeconfig.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section20.CleanCode\CleanCode\obj\Debug\net6.0\ref\Section20.CleanCode.dll
