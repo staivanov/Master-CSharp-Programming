@@ -1,0 +1,12 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\bin\Debug\net6.0\Section23.TDD.Calculator.Domain.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\bin\Debug\net6.0\Section23.TDD.Calculator.Domain.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\bin\Debug\net6.0\Section23.TDD.Calculator.Domain.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\refint\Section23.TDD.Calculator.Domain.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\Section23.TDD.Calculator.Domain.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Domain\obj\Debug\net6.0\ref\Section23.TDD.Calculator.Domain.dll
