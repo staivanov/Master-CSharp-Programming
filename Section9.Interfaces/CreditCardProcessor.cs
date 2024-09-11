@@ -1,4 +1,5 @@
 ﻿using Section9.Interfaces.Interfaces;
+using static System.Console;
 
 namespace Section9.Interfaces
 {
@@ -6,7 +7,7 @@ namespace Section9.Interfaces
     {
         public void ProcessPayment(decimal amount)
         {
-            Console.WriteLine($"Processing credit card paiment.");
+            WriteLine($"Processing credit card paiment.");
         }
     }
 }

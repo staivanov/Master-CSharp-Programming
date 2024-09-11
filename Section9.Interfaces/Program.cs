@@ -11,9 +11,6 @@ namespace Section9.Interfaces
             paymentService.ProcessOrderPayment(100.0m);
             IPaymentProcesser paypalProcessor = new PaypalProcessor();
             paymentService.ProcessOrderPayment(200.0m);
-
-
-
         }
     }
 }
