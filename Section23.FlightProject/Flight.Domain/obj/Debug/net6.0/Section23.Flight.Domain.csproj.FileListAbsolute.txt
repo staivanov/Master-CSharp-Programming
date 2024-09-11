@@ -1,0 +1,12 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\bin\Debug\net6.0\Section23.Flight.Domain.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\bin\Debug\net6.0\Section23.Flight.Domain.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\bin\Debug\net6.0\Section23.Flight.Domain.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\refint\Section23.Flight.Domain.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\Section23.Flight.Domain.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.FlightProject\Flight.Domain\obj\Debug\net6.0\ref\Section23.Flight.Domain.dll
