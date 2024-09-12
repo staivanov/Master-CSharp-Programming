@@ -1,27 +1,35 @@
-﻿using Section23.Applications.Tests;
+﻿using Flights.Domain;
+using Section23.Applications.Tests;
 
 namespace Applications.Tests
 {
     public class BookingService
     {
-        private Entities entities;
+        private Entities _entities { get; set; }
 
         public BookingService(Entities entities)
         {
-            this.entities = entities;
+            _entities  = entities;
         }
 
         public void Book(BookDTO bookDTO)
-        {
-            if (bookDTO is null)
-            {
-                throw new ArgumentNullException(nameof(bookDTO));
-            }
+        {      
+            Flight? flight = _entities.Flights.Find(bookDTO.FlightId);
+            flight.Book(bookDTO.PassengerEmail, bookDTO.NumberOfSeats);
+
+            _entities.SaveChanges();
         }
 
-        public IEnumerable<BookingRm> FindBookings(Guid flightId) => new[]
-            {
-             new BookingRm("a random string", 23)
-            };
+
+        public IEnumerable<BookingRm> FindBookings(Guid flightId)
+        {
+            return _entities.Flights?
+                .Find(flightId)?
+                .BookingList
+                .Select(booking => new BookingRm(
+                    booking.Email,
+                    booking.NumberOfSeats
+                    ));
+        }
     }
 }

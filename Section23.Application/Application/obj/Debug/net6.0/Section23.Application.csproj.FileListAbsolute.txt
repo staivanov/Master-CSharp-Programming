@@ -1,0 +1,12 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\bin\Debug\net6.0\Section23.Application.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\bin\Debug\net6.0\Section23.Application.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\bin\Debug\net6.0\Section23.Application.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\refint\Section23.Application.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\Section23.Application.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.Application\Application\obj\Debug\net6.0\ref\Section23.Application.dll

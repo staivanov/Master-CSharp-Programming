@@ -88,9 +88,6 @@ namespace FlightTests
             flight.Book(passengerEmail: "a@b.com", numberOfSeats: 1);
             object error = flight.CancelBooking(passengerEmail: "a@b.com", numberOfSeats: 1);
             error.Should().BeNull();
-
-
         }
-
     }
 }

@@ -12,7 +12,5 @@
             PassengerEmail = passengerEmail;
             NumberOfSeats = numberOfSeats;
         }
-
-
     }
 }

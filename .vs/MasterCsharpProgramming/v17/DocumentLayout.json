@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{440B40F2-ADFB-4FE3-928D-0014244F55DD}|Section23.AppTests\\Applications.Tests\\Section23.Applications.Tests.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\section23.apptests\\applications.tests\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{440B40F2-ADFB-4FE3-928D-0014244F55DD}|Section23.AppTests\\Applications.Tests\\Section23.Applications.Tests.csproj|solutionrelative:section23.apptests\\applications.tests\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B181BC07-E0DC-4FAD-BFA6-88B181D85FC4}|Section23.FlightProject\\Flight.Domain\\Section23.Flight.Domain.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\section23.flightproject\\flight.domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B181BC07-E0DC-4FAD-BFA6-88B181D85FC4}|Section23.FlightProject\\Flight.Domain\\Section23.Flight.Domain.csproj|solutionrelative:section23.flightproject\\flight.domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B181BC07-E0DC-4FAD-BFA6-88B181D85FC4}|Section23.FlightProject\\Flight.Domain\\Section23.Flight.Domain.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\section23.flightproject\\flight.domain\\bookingnotfounderror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B181BC07-E0DC-4FAD-BFA6-88B181D85FC4}|Section23.FlightProject\\Flight.Domain\\Section23.Flight.Domain.csproj|solutionrelative:section23.flightproject\\flight.domain\\bookingnotfounderror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B181BC07-E0DC-4FAD-BFA6-88B181D85FC4}|Section23.FlightProject\\Flight.Domain\\Section23.Flight.Domain.csproj|p:\\c#\\master c# programming from a to z\\mastercsharpprogramming\\section23.flightproject\\flight.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B181BC07-E0DC-4FAD-BFA6-88B181D85FC4}|Section23.FlightProject\\Flight.Domain\\Section23.Flight.Domain.csproj|solutionrelative:section23.flightproject\\flight.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 350,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,58 +58,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingNotFoundError.cs",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.FlightProject\\Flight.Domain\\BookingNotFoundError.cs",
-              "RelativeDocumentMoniker": "Section23.FlightProject\\Flight.Domain\\BookingNotFoundError.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.FlightProject\\Flight.Domain\\BookingNotFoundError.cs",
-              "RelativeToolTip": "Section23.FlightProject\\Flight.Domain\\BookingNotFoundError.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T10:51:32.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.FlightProject\\Flight.Domain\\Booking.cs",
-              "RelativeDocumentMoniker": "Section23.FlightProject\\Flight.Domain\\Booking.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.FlightProject\\Flight.Domain\\Booking.cs",
-              "RelativeToolTip": "Section23.FlightProject\\Flight.Domain\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T10:51:27.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.AppTests\\Applications.Tests\\Entities.cs",
-              "RelativeDocumentMoniker": "Section23.AppTests\\Applications.Tests\\Entities.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.AppTests\\Applications.Tests\\Entities.cs",
-              "RelativeToolTip": "Section23.AppTests\\Applications.Tests\\Entities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T10:48:27.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.FlightProject\\Flight.Domain\\Flight.cs",
-              "RelativeDocumentMoniker": "Section23.FlightProject\\Flight.Domain\\Flight.cs",
-              "ToolTip": "P:\\C#\\Master C# Programming from A to Z\\MasterCsharpProgramming\\Section23.FlightProject\\Flight.Domain\\Flight.cs",
-              "RelativeToolTip": "Section23.FlightProject\\Flight.Domain\\Flight.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T10:47:29.222Z",
-              "EditorCaption": ""
             }
           ]
         },
