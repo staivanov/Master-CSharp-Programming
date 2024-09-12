@@ -1,0 +1,15 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\bin\Debug\WPFTasks.exe.config
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\bin\Debug\WPFTasks.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\bin\Debug\WPFTasks.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.csproj.AssemblyReference.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\MainWindow.g.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\App.g.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks_MarkupCompile.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks_MarkupCompile.lref
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\MainWindow.baml
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.g.resources
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.Properties.Resources.resources
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.csproj.GenerateResource.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.WpfTaskE\WPFTasks\obj\Debug\WPFTasks.pdb

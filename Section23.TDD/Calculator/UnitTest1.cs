@@ -1,4 +1,5 @@
 using Section23.TDD.Calculator.Domain;
+using FluentAssertions;
 
 namespace CalculatorTest
 {
@@ -13,10 +14,7 @@ namespace CalculatorTest
             int result = calculator.Sum(2, 2),
                 expectedResult = 4;
 
-            if (result != expectedResult)
-            {
-                throw new Exception();
-            }
+            result.Should().Be(expectedResult);
         }
     }
 }

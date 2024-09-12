@@ -1,5 +1,5 @@
-﻿using static System.Console;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
+using static System.Console;
 
 
 namespace Section17.LiNQwithXML

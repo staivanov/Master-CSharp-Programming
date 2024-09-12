@@ -3,7 +3,7 @@
     public static class XMLdataSeed
     {
         public static string GetXMLdata()
-        {   
+        {
             string studentsXML =
                        @"<Students>
                             <Student>

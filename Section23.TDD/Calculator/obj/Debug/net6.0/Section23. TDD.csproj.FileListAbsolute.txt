@@ -1,6 +1,5 @@
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\testhost.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\testhost.exe
-P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\Section23. TDD.deps.json
@@ -16,7 +15,6 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Ca
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\Newtonsoft.Json.dll
-P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\NuGet.Frameworks.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.abstractions.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.assert.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.core.dll
@@ -98,6 +96,12 @@ P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Ca
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\obj\Debug\net6.0\Section23. TDD.pdb
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\obj\Debug\net6.0\Section23. TDD.genruntimeconfig.cache
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\obj\Debug\net6.0\ref\Section23. TDD.dll
-P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\CoverletSourceRootsMapping
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\Section23.TDD.Calculator.Domain.dll
 P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\Section23.TDD.Calculator.Domain.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\FluentAssertions.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\.msCoverageSourceRootsMapping_Section23. TDD
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\CoverletSourceRootsMapping_Section23. TDD
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section23.TDD\Calculator\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll

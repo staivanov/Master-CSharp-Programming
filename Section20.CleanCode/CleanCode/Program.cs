@@ -1,6 +1,4 @@
 ﻿using Section20.CleanCode.SOLID.I;
-using Section20.CleanCode.SOLID.O;
-using static System.Console;
 
 namespace CleanCode
 {

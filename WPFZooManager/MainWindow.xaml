@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:WPFZooManager"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,-59,0,0">
+    <Grid Margin="0,-59,-411,-280">
         <Label Content="Zoo List" HorizontalAlignment="Left" Margin="36,79,0,0" VerticalAlignment="Top" />
-        <ListBox Name="ListZoos" HorizontalAlignment="Left" Height="175" Margin="36,131,0,0" VerticalAlignment="Top" Width="150"/>
+        <ListBox Name="listZoos" HorizontalAlignment="Left" Height="175" Margin="36,131,0,0" VerticalAlignment="Top" Width="150"/>
         <Label Content="Associated Animals List" HorizontalAlignment="Left" Margin="301,87,0,-77" VerticalAlignment="Top"/>
-        <ListBox x:Name="ListZoos_Copy" HorizontalAlignment="Left" Height="175" Margin="293,131,0,0" VerticalAlignment="Top" Width="150"/>
+        <ListBox x:Name="listAssociatedAnimals" HorizontalAlignment="Left" Height="175" Margin="293,131,0,0" VerticalAlignment="Top" Width="150"/>
     </Grid>
 </Window>

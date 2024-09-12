@@ -8,6 +8,5 @@ namespace Section11.EventsAndDelegates
 
         public void RaiseEvent(string message)
             => OnNotify?.Invoke(message); //Invoke the event if there are any subscribers.
-
     }
 }

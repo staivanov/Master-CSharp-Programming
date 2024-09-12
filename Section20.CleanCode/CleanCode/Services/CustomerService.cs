@@ -6,7 +6,7 @@
     /// </summary>
     public class CustomerService
     {
-        private string _lastCutomerName; //CamelCase
+        private readonly string _lastCutomerName; //CamelCase
         //CamelCase (without_ is also valid for private fields)
         private string customerName;
         public int CustomerCount { get; set; } //PascalCase

@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Section23.TDD.Calculator.Domain;
 
-
 namespace Web.Controllers
 {
     [ApiController]

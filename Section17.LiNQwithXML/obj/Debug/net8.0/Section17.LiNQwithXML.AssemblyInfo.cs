@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Section17.LiNQwithXML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a9a67467d32cdf1664e739862bedac65ef4314")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f381ef8bf763870a2b05c18fb1c9fe4363be3ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Section17.LiNQwithXML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Section17.LiNQwithXML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

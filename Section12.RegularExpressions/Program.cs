@@ -20,10 +20,6 @@ namespace Section12.RegularExpressions
                 GroupCollection group = hit.Groups;
                 WriteLine($"{group[0].Value} found at {group[0].Index}.");
             }
-
-
-
-
         }
     }
 }

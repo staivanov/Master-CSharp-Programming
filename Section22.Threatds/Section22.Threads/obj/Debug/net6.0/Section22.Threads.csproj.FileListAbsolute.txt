@@ -1,0 +1,15 @@
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\bin\Debug\net6.0\Section22.Threads.exe
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\bin\Debug\net6.0\Section22.Threads.deps.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\bin\Debug\net6.0\Section22.Threads.runtimeconfig.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\bin\Debug\net6.0\Section22.Threads.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\bin\Debug\net6.0\Section22.Threads.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.GeneratedMSBuildEditorConfig.editorconfig
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.AssemblyInfoInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.AssemblyInfo.cs
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.csproj.CoreCompileInputs.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.sourcelink.json
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\refint\Section22.Threads.dll
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.pdb
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\Section22.Threads.genruntimeconfig.cache
+P:\C#\Master C# Programming from A to Z\MasterCsharpProgramming\Section22.Threatds\Section22.Threads\obj\Debug\net6.0\ref\Section22.Threads.dll
