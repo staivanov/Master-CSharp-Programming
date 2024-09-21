@@ -19,9 +19,16 @@ namespace WPFapp
 
             Grid? myGrid = FindName("myGrid") as Grid;
             myGrid.Children.Add(myButton);
+        }
 
-
-
+        /// <summary>
+        /// The name of this method is a reference to attribute value in a .xaml file.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello World!");
         }
     }
 }
